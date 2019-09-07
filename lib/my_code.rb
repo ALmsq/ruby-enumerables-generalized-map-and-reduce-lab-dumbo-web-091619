@@ -9,7 +9,7 @@ end
 arr
 end
 
-def reduce(array, start = 0)
+def reduce(array, start = nil)
   if !start  
     n = array[0]
     i = 1
